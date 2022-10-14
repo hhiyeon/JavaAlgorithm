@@ -1,4 +1,4 @@
-package 코딜리티.Easy;
+package 코딜리티.Easy.SimpleArraySum;
 
 import java.io.*;
 import java.util.*;
