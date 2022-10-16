@@ -1,9 +1,7 @@
-package 코딜리티.Easy.SimpleArraySum;
+package 해커랭크.Easy.SimpleArraySum;
 
 import java.io.*;
 import java.util.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.toList;
 
 class Result {
     public static int simpleArraySum(List<Integer> ar) {

@@ -1,10 +1,6 @@
-package 코딜리티.Easy.SolveMeFirst;
+package 해커랭크.Easy.SolveMeFirst;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Solution {
 

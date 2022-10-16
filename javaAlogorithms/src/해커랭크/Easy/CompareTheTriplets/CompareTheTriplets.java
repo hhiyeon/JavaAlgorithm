@@ -1,4 +1,4 @@
-package 코딜리티.Easy.CompareTheTriplets;
+package 해커랭크.Easy.CompareTheTriplets;
 
 import java.io.*;
 import java.util.*;
