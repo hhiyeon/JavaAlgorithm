@@ -36,14 +36,13 @@ class Result {
                 if(maxStack.isEmpty() || parseNum >= maxStack.peek()){
                     maxStack.add(parseNum);
                 }
-            }else {
+            } else {
                 if (element.equals("2")) {
                     int delValue = stack.pop();
                     if (delValue == maxStack.peek()) {
                         maxStack.pop();
                     }
-                }
-                if (element.equals("3")) {
+                } else{
                     answer.add(maxStack.peek());
                 }
             }
