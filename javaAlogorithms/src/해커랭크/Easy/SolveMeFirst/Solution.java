@@ -1,13 +1,15 @@
 package 해커랭크.Easy.SolveMeFirst;
 
 import java.util.*;
+import java.util.function.BinaryOperator;
 
 public class Solution {
 
 
     static int solveMeFirst(int a, int b) {
-        // Hint: Type return a+b; below
-        return a+b;
+        BinaryOperator<Integer> sum = (n1,n2) -> n1+n2;
+        int res = sum.apply(a, b);
+        return res;
     }
 
     public static void main(String[] args) {
