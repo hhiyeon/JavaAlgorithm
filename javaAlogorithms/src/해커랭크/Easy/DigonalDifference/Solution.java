@@ -14,14 +14,14 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
     public static int diagonalDifference(List<List<Integer>> arr) {
-        int sum1 = IntStream.range(0, arr.size())
+        int sumA = IntStream.range(0, arr.size())
                 .map(i -> arr.get(i).get(i))
                 .sum();
-        int sum2 = IntStream.range(0, arr.size())
+        int sumB = IntStream.range(0, arr.size())
                 .map(i -> arr.get(i).get(arr.size()-1-i))
                 .sum();
 
-        return Math.abs(sum1 - sum2);
+        return Math.abs(sumA - sumB);
     }
 }
 
